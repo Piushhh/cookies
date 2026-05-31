@@ -7,4 +7,5 @@
   4. Run this command : localStorage.clear();
   5. Enter! There You have it, your little cookie card again.
 
-//
+// https://roadmap.sh/projects/cookie-consent/solutions?u=66e07781ee0aa6b851743b90
+// https://roadmap.sh/projects/cookie-consent
