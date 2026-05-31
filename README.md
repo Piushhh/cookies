@@ -1,4 +1,4 @@
-// website link: 
+// website link: https://piushhh.github.io/cookies/
 
 //How to reset the cookie local storage once you've accepted it:
   1. Right click anywhere on the page.
