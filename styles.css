@@ -81,3 +81,9 @@
   transition: opacity 0.2s;
   
 }
+
+#container2 #para{
+  font-size: large;
+  padding-top: 80px;
+  padding-right: 80px;
+}
