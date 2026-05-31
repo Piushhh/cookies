@@ -6,7 +6,9 @@
 */
 const cookieCard = document.getElementById("container")
 const cancelbtn = document.getElementById("cancel")
-cancelbtn.addEventListener('click', () => {
-  // hide the css property of this button
+
+function hidePopUp(){
+   //hide the css property of this button
     cookieCard.style.display = 'none';
-})
+}
+cancelbtn.addEventListener('click', hidePopUp)
