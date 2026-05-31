@@ -40,16 +40,23 @@
   }
 }
 #container{
-    height: 100px;
-    width: 100px;
-    background-color: dodgerblue;
+    height: 250px;
+    width: 250px;
+    background-color: black;
     color: azure;
     border: 1px solid black ;
     position: fixed; /* Locks the position relative to the browser viewport */
   bottom: 20px;    /* Adds a clean 20px margin from the bottom edge */
   right: 20px;     /* Adds a clean 20px margin from the right edge */
-  background-color: #007bff;
+  
   color: white;
   padding: 15px;
   border-radius: 8px;
+  z-index: 10;
+}
+
+#container img {
+  width: 48px;
+  height: 48px;
+  filter: invert(1);
 }
