@@ -85,5 +85,19 @@
 #container2 #para{
   font-size: large;
   padding-top: 80px;
-  padding-right: 80px;
+  padding-right: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#accept{
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
 }
