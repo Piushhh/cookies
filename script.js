@@ -1,17 +1,12 @@
-const showBtn = document.getElementById("show");
-const clearBtn = document.getElementById("clear");
-const output = document.getElementById("cookie-value");
-
-// Note that we are setting `SameSite=None;` in this example because the example
-// needs to work cross-origin.
-// It is more common not to set the `SameSite` attribute, which results in the default,
-// and more secure, value of `SameSite=Lax;`
-document.cookie = "name=Oeschger; SameSite=None; Secure";
-document.cookie = "favorite_food=tripe; SameSite=None; Secure";
-
-showBtn.addEventListener("click", () => {
-  output.textContent = `> ${document.cookie}`;
-});
-clearBtn.addEventListener("click", () => {
-  output.textContent = "";
-});
+/*now for the js file, here are the things which come to my mind before building it
+1.The 'X' button - when clicked and event occurs which closes the window so I need a function to do that
+2. When a user accepts the cookie pop-up it also closes which means the same work happens as with the 'x' button so whenever a user click on the accept button I call the "x function" here as well.
+3. Also I need to accept the cookie information which the user provides how do I do that? so when the user visits frequently the pop-up doesn't appear again and again.
+4.When the HTML loads, the banner is visible by default. What is the very first check the JavaScript needs to run before the user even looks at the screen?
+*/
+const cookieCard = document.getElementById("container")
+const cancelbtn = document.getElementById("cancel")
+cancelbtn.addEventListener('click', () => {
+  // hide the css property of this button
+    cookieCard.style.display = 'none';
+})
